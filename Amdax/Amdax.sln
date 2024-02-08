@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amdax", "Amdax.csproj", "{96AC8002-AF94-429E-A4A7-75FFC3F132F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdax", "Amdax.csproj", "{96AC8002-AF94-429E-A4A7-75FFC3F132F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "..\Service\Service.csproj", "{009F1176-3965-48FF-823A-877D968490A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Service\Service.csproj", "{009F1176-3965-48FF-823A-877D968490A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{5D2062B6-706F-4A9E-B6DA-615E266503D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{5D2062B6-706F-4A9E-B6DA-615E266503D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{99A07DD5-1601-4467-AED2-95B2A854C02C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5D2062B6-706F-4A9E-B6DA-615E266503D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D2062B6-706F-4A9E-B6DA-615E266503D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D2062B6-706F-4A9E-B6DA-615E266503D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A07DD5-1601-4467-AED2-95B2A854C02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A07DD5-1601-4467-AED2-95B2A854C02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A07DD5-1601-4467-AED2-95B2A854C02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A07DD5-1601-4467-AED2-95B2A854C02C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
